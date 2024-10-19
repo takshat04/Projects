@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .rotate-card {
+            transition: transform 0.6s ease-in-out;
+        }
+        .rotate-card:hover {
+            transform: rotateY(360deg);
+        }
+        /* Custom Purple for the Header and Service Title Background */
+        .bg-custom-purple {
+            background-color: #3C1A71; /* Matching the purple from the image */
+        }
+        /* Set image dimensions and style for consistency */
+        .service-img {
+            width: 100px;  /* Adjust width */
+            height: 100px; /* Adjust height */
+            object-fit: cover; /* Ensures the image maintains its aspect ratio while covering the specified area */
+        }
+        /* Logo Styling */
+        .logo {
+            width: 80px;  /* Adjusted width to 2x */
+            height: 80px; /* Adjusted height to 2x */
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body class="bg-gray-200">
+
+    <!-- Header Section -->
+    <header class="bg-custom-purple text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div>
+                <h1 class="text-2xl font-bold">Pinak Idea Lab Private Limited</h1>
+                <nav class="mt-2 space-x-6">
+                    <a href="#" class="hover:text-gray-300">Home</a>
+                    <a href="#" class="hover:text-gray-300">About Us</a>
+                    <a href="#" class="hover:text-gray-300">Services</a>
+                    <a href="#" class="hover:text-gray-300">Contact</a>
+                </nav>
+            </div>
+            <!-- Logo on the right side -->
+            <div>
+                <img src="5.jpeg" alt="Logo" class="logo">
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <div id="assignment" class="container mx-auto py-12">
+        <h1 class="text-3xl font-bold mb-8 text-white bg-custom-purple p-4">Our Services</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
+            <!-- Service Card 1 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 rotate-card text-center">
+                <img src="1.jpg" alt="icon" class="service-img mx-auto mb-4">
+                <h2 class="text-xl font-bold text-purple-700">Emergency Plumbing Services</h2>
+                <p class="text-gray-700 mb-4">Our plumbers are ready 24/7 for emergencies.</p>
+                <a href="#" class="text-purple-600 font-semibold">Explore this service &gt;</a>
+            </div>
+            
+            <!-- Service Card 2 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 rotate-card text-center">
+                <img src="2.webp" alt="icon" class="service-img mx-auto mb-4">
+                <h2 class="text-xl font-bold text-purple-700">Plumbing and Drains</h2>
+                <p class="text-gray-700 mb-4">We make thousands of repairs every day.</p>
+                <a href="#" class="text-purple-600 font-semibold">Explore this service &gt;</a>
+            </div>
+            
+            <!-- Service Card 3 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 rotate-card text-center">
+                <img src="3.jpg" alt="icon" class="service-img mx-auto mb-4">
+                <h2 class="text-xl font-bold text-purple-700">Water Damage</h2>
+                <p class="text-gray-700 mb-4">Our teams are equipped with state-of-the-art equipment.</p>
+                <a href="#" class="text-purple-600 font-semibold">Explore this service &gt;</a>
+            </div>
+            
+            <!-- Service Card 4 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 rotate-card text-center">
+                <img src="4.avif" alt="icon" class="service-img mx-auto mb-4">
+                <h2 class="text-xl font-bold text-purple-700">Water Heaters</h2>
+                <p class="text-gray-700 mb-4">Repair and replacement of water heaters.</p>
+                <a href="#" class="text-purple-600 font-semibold">Explore this service &gt;</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-custom-purple text-white py-4 mt-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Company Name. All Rights Reserved.</p>
+            <nav class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="hover:text-gray-300">Privacy Policy</a>
+                <a href="#" class="hover:text-gray-300">Terms of Service</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function(){
+            $('.rotate-card').hover(function(){
+                $(this).toggleClass('rotate');
+            });
+        });
+    </script>
+</body>
+</html>
