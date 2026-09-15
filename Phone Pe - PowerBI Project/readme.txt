@@ -70,9 +70,6 @@ Payment Status
 
 These allow users to perform focused analysis and explore different transaction scenarios.
 
-📸 Dashboard Preview
-Complete Dashboard
-
 💡 Key Insights
 
 📍 300K total transactions were recorded.
