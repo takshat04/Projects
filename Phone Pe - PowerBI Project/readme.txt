@@ -42,24 +42,26 @@ Transaction volume
 Transaction value
 Payment status
 High and low activity periods
+
+
 👥 User Analytics
-
 Analyze customer behavior across:
-
 Gen X
 Millennials
 Gen Z
 Boomers
+
 Top 5 users by transaction value
 Weekday vs. weekend usage
+
 🏦 Service Analysis
 
 Compare transaction value across major services:
-
 Loans
 Insurance
 Money Transfer
 Recharge Bills
+
 🎛️ Interactive Filters
 
 The dashboard includes interactive filters for:
