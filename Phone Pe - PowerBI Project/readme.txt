@@ -19,17 +19,16 @@ The dashboard provides a consolidated view of key performance indicators (KPIs),
 ✔ Compare weekday and weekend transaction activity
 
 🛠️ Tech Stack
-Tool	Purpose
-📊 Power BI	Dashboard Development
-⚡ Power Query	Data Cleaning & Transformation
-🧮 DAX	Calculated Measures & KPIs
-🗄️ Data Modeling	Data Relationships & Analysis
-🎨 Power BI Visuals	Data Visualization
-📂 Dashboard Features
-📌 Executive KPI Cards
+| Tool                    | Purpose                        |
+| ----------------------- | ------------------------------ |
+| 📊 **Power BI**         | Dashboard Development          |
+| ⚡ **Power Query**       | Data Cleaning & Transformation |
+| 🧮 **DAX**              | Calculated Measures & KPIs     |
+| 🗄️ **Data Modeling**   | Data Relationships & Analysis  |
+| 🎨 **Power BI Visuals** | Data Visualization             |
 
-Monitor key business metrics including:
 
+🛠️ Monitor key business metrics including:
 Total Transactions — 300K
 Total Transaction Value — ₹3.47 Billion
 Unique Users — 108K
