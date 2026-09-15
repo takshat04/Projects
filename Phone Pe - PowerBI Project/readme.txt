@@ -64,10 +64,8 @@ Recharge Bills
 🎛️ Interactive Filters
 
 The dashboard includes interactive filters for:
-
-Month
-Payment Status
-
+📍 Month
+📍 Payment Status
 These allow users to perform focused analysis and explore different transaction scenarios.
 
 💡 Key Insights
